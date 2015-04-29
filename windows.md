@@ -1,4 +1,4 @@
-# git 설치및 github을 연동 하는 과정을 위한 예제
+﻿# git 설치및 github을 연동 하는 과정을 위한 예제
 
 ##1. git 설치 
 windows 버전에서는 windows에서 bash를 사용할 수 있게 해주는 git bash를 활용 합니다. 
@@ -63,6 +63,43 @@ concept guides. See 'git help <command>' or 'git help <concept>'
 
 위와 같이 실행되면 설치 성공 
 이외의 별도 git설정은 없음.
+
+### git bash 에서 한글이 깨질 경우 
+
+```
+$ vi /c/Users/neod/.inputrc  
+
+set output-meta on
+set convert-meta off
+
+$ vi /c/Users/neod/.bashrc
+alias ls='ls --show-control-chars'
+
+```
+
+
+사용자 home directory 위치에  
+.inputrc  파일 생성후  
+
+```
+set output-meta on
+set convert-meta off
+```
+
+위 내용 입력 후 저장 
+
+사용자 home directory 위치에  
+.bashrc  파일 생성후  
+
+```
+alias ls='ls --show-control-chars'
+```
+
+위 내용 입력후 저장
+
+ 추가 후 저장 
+
+
 
 #2. git 계정 설정
 
