@@ -41,7 +41,7 @@ $ vi ~/.bash_profile
 아래 내용 추가 
 
 ```
-$ export PATH=/usr/local/git/bin:$PATH
+export PATH=/usr/local/git/bin:$PATH
 ```
 
 *내용 추가 후 즉시 적용시  다음 명령 실행
