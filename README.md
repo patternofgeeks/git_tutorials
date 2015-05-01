@@ -4,7 +4,8 @@ git 을 설치 사용하기 위한 내용을 정리 합니다.
 
 git start link : https://help.github.com/articles/set-up-git/
 
-1. git 설치
+1. git 설치1
+2.  -1
 2. git 계정 설정
 3. git repogitory 설정
 4. git clone 
