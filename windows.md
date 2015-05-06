@@ -6,7 +6,7 @@ windows 버전에서는 windows에서 bash를 사용할 수 있게 해주는 git
 git은 형상 관리를 위해 사용하고 , 실제 파일 수정 등에는 editor(eclipse, sublime, editplus, intellij ..)를 사용 합니다 
 
 <a href="http://git-scm.com/download/win">Download</a> 링크에서 최신 버전의 git을 설치 
-※ 주의사항 "GitHubSetup.exe" 가 아닌 "Git-1.9.5-preview20150319.exe" 파일을 사용하도록 한다. (by 남궁환)
+※ 주의사항 "GitHubSetup.exe" 가 아닌 "Git-1.9.5-preview20150319.exe" 파일을 사용하도록 한다.
 
 windows 에서 git gui툴 자체의 충돌이 많은 관계로 gui 툴을 사용하지 않습니다.
 
